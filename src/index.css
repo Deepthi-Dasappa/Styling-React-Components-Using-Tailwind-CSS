@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body {
-  background-image: url("subtle-prism.svg");
+  background-image: url("./assets/subtle-prism.svg");
   background-size: 100% auto;
   min-height: 100vh;
 }
