@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Indie+Flower&family=Lacquer&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("src/assets/subtle-prism.svg");
+  background-size: 100% auto;
+  min-height: 100vh;
+}
