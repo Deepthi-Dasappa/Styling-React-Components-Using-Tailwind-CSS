@@ -29,7 +29,7 @@ export default function AuthInputs() {
   return (
     <div
       id="auth-inputs"
-      className="w-full max-w-md p-8 -my-5 mx-auto rounded-md shadow-authInputBoxShadow bg-authInputBackground text-white"
+      className="w-72 md:w-full max-w-md p-8 -my-5 mx-auto rounded-md shadow-authInputBoxShadow bg-authInputBackground text-white"
     >
       <div className="flex flex-col gap-8 mb-7">
         <p className="flex flex-col">
@@ -81,7 +81,7 @@ export default function AuthInputs() {
           Create a new account
         </button>
         <button
-          className="cursor-pointer bg-slate-600 rounded-sm px-2 font-medium hover:bg-orange-400"
+          className="cursor-pointer bg-slate-600 rounded-sm px-1 md:px-2 font-medium hover:bg-orange-400"
           onClick={handleLogin}
         >
           Sign In
